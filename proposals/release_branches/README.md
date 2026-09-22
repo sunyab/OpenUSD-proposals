@@ -34,8 +34,8 @@ allowing for up to 999 patches to a release, which should be more than enough.
 ![Branch diagram showing dev branch with per-release branches v26.05 and v26.08, each with patch release tags](branch_diagram_proposed.png)
 
 In this diagram, both the `v26.05` and `v26.08` branches have two tags
-indicating releases for those versions: the `.000` tag for the initial release
-and a `.001` tag indicating a patch release containing a cherry-picked change
+indicating releases for those versions: the `.0` tag for the initial release
+and a `.1` tag indicating a patch release containing a cherry-picked change
 from `dev`.
 
 This change in structure will be applied beginning with the next release
